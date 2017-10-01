@@ -7,6 +7,10 @@ target 'nMessenger' do
 
   # Pods for nMessenger
   pod 'Texture', '2.3.2'
+  pod 'Material', '~> 2.6'
+  pod 'Font-Awesome-Swift', '~> 1.6.2'
+  pod 'IoniconsSwift', :git => 'http://github.com/tidwall/IoniconsSwift.git', :branch => 'master'
+  pod 'ChameleonFramework/Swift'
 
   target 'nMessengerTests' do
     inherit! :search_paths
